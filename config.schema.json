@@ -1,4 +1,4 @@
-  {
+    {
     "pluginAlias": "TuyaLan",
     "pluginType": "platform",
     "singular": true,
@@ -451,6 +451,20 @@
                 "placeholder": "0",
                 "condition": {
                   "functionBody": "return model.devices && model.devices[arrayIndices] && ['SimpleBlinds'].includes(model.devices[arrayIndices].type);"
+				  }
+              },
+              "timeToOpen": {
+                "type": "integer",
+                "placeholder": "45",
+                "condition": {
+                  "functionBody": "return model.devices && model.devices[arrayIndices] && ['ShadeAccessory'].includes(model.devices[arrayIndices].type);"
+                }
+              },
+              "timeToTighten": {
+                "type": "integer",
+                "placeholder": "0",
+                "condition": {
+                  "functionBody": "return model.devices && model.devices[arrayIndices] && ['ShadeAccessory'].includes(model.devices[arrayIndices].type);"
                 }
               },
               "dpLight": {
