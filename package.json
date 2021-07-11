@@ -1,6 +1,6 @@
 {
   "name": "homebridge-tuya-curtain-shade",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Homebridge plugin for TuyAPI Curtains",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "homebridge-plugin",
     "homebridge",
     "homebridge-tuya",
-    "tuya-custain-shade",
+    "tuya-curtain-shade",
     "tuya"
   ],
   "engines": {
