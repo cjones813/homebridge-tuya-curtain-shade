@@ -1,0 +1,46 @@
+{
+  "name": "homebridge-tuya-curtain-shade",
+
+  "version": "1.0.5",
+
+  "description": "Homebridge plugin for TuyAPI Curtains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tuya-lan": "./bin/cli.js",
+    "tuya-lan-find": "./bin/cli-find.js",
+    "tuya-lan-decode": "./bin/cli-decode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjones813/homebridge-tuya-curtain-shade.git"
+  },
+  "author": "Rayan Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iRayanKhan/homebridge-tuya/issues"
+  },
+  "homepage": "https://github.com/iRayanKhan/homebridge-tuya#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "commander": "^3.0.1",
+    "fs-extra": "^8.1.0",
+    "http-mitm-proxy": "^0.8.1",
+    "json5": "^2.1.0",
+    "qrcode": "^1.4.1",
+    "yaml": "^1.6.0"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homebridge-tuya",
+	"tuya-custain-shade",
+    "tuya"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.0",
+    "node": ">=8.6.0"
+  }
+}
