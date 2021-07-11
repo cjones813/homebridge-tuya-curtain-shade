@@ -1,6 +1,6 @@
 {
   "name": "homebridge-tuya-curtain-shade",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Homebridge plugin for TuyAPI Curtains",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/cjones813/homebridge-tuya-curtain-shade/issues"
   },
-  "homepage": "https://github.com/iRayanKhan/homebridge-tuya#readme",
+  "homepage": "https://github.com/cjones813/homebridge-tuya-curtain-shade#readme",
   "dependencies": {
     "async": "^3.1.0",
     "commander": "^3.0.1",
